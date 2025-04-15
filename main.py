@@ -29,7 +29,7 @@ fail = pygame.mixer.Sound("fail.mp3")
 
 pygame.mixer.music.load("BackGround_effect.mp3")
 pygame.mixer.music.play(loops=-1)
-pygame.mixer.music.set_volume(0.05)
+pygame.mixer.music.set_volume(0.02)
 
 
 secret_word = random.choice(mots)
